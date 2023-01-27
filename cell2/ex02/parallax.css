@@ -1,0 +1,52 @@
+
+* {
+    background:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content {
+    font-size: large;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.special{
+    position: fixed;
+}
+
+.parallax-content-top {
+    font-size: x-large;
+    text-align: center;
+    color: azure;
+    height:100vh;
+    width: 100vw;
+    background-attachment: fixed; /*controla si la imagen de fondo establecida en un elemento se mueve o permanece fija cuando se hace scroll en la ventana del navegador*/
+    background-repeat: no-repeat; /*no repite la imagen en bucle*/
+    background-size: cover; /*cubre toda la pantalla*/
+    background-image: url(https://www.nationalgeographic.com.es/medio/2022/12/12/fotos-animales-1_079d6ae0_221212155317_1280x720.jpg);
+}
+
+.no-parallax-content {
+    height: 200px;
+    font-size: x-large;
+    text-align: center;
+    color: azure;
+}
+
+.parallax-content-bottom {
+    font-size: x-large;
+    text-align: center;
+    color: azure;
+    height:100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/101/177/172/animals-art-background-black-wallpaper-preview.jpg);
+}
+

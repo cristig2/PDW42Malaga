@@ -1,0 +1,57 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+  
+input:checked  ~ ul {
+    display:block;
+}
+  
+input {
+    display: none;
+}
+  
+label {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  
+  text-align: center;
+  }
+  
+  /* Estilo del boton cuando se pasa el mouse por encima*/
+  label:hover{
+    background: rgb(143, 170, 213);
+  }
+  
+  /* Estilo del boton cuando el menú está expandido*/
+  input:checked ~ label {
+    background: rgb(178, 190, 225); 
+  }
+  
+  
+  li {
+    display: block;
+    background: rgb(178, 190, 225);
+    border-radius: 30px;
+    margin: 3px;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }
+  
+  /*Estilo cuando el mouse pasa encima de cada link del menu*/
+  li:hover {
+    filter: brightness(110%);
+  }

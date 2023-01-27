@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tarjeta{
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    max-width: 50%;
+}
+
+  .titulo{
+    background-color: lightgrey;
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .cuerpo{
+      padding: 10px;
+}
+img{
+    width: 100%;
+}
+h4 {
+    font-size: 40px;
+}
+
+.pie{
+    background: grey;
+    border-radius: 15px;
+    height: 30px;
+    text-align:center;
+}
+
+  .pie a{
+    text-decoration: none;
+    border-radius: 15px;
+    color: black;
+  }
+  .button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: lightgray;
+  }
